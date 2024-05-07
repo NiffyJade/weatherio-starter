@@ -518,7 +518,32 @@ article.container::before {
 /*-----------------------------------*\
   #HOURLY FORECAST
 \*-----------------------------------*/
+.highlights .m-icon { font-size: 3.2rem; }
 
+.highlight-list {
+  display: grid;
+  gap: 20px;
+}
+
+.highlight-list .title-3 {
+  color: var(--on-surface-variant);
+  margin-block-end: 20px;
+}
+
+.highlights .card-sm {
+  background-color: var(--black-alpha-10);
+  position: relative;
+}
+
+.highlight-card :is(.wrapper, .card-list, .card-item) {
+  display: flex;
+  align-items: center;
+}
+
+.highlight-card .wrapper {
+  justify-content: space-between;
+  gap: 16px;
+}
 
 
 
